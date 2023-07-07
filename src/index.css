@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url("/bg-desktop.jpg") no-repeat top center/cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
