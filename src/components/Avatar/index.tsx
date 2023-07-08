@@ -6,7 +6,10 @@ const Avatar = () => {
         src="/Avatar.jpg"
         alt="Beatriz Assunção"
       />
-      <p className="mt-2 text-base">@beatrizass</p>
+      <p className="mt-2 text-2xl font-bold">Beatriz Assunção</p>
+      <p className="mt-2 text-sm text-gray-500">
+        Fotógrafa, artesã e empreendedora
+      </p>
     </div>
   )
 }
