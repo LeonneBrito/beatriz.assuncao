@@ -5,6 +5,7 @@
 body {
   background: url("/bg-mobile.jpg") no-repeat top center/cover;
   height: 100vh;
+  overflow: hidden;
 }
 
 body * {
@@ -15,5 +16,6 @@ body * {
 @media (min-width: 700px) {
   body {
     background: url("/bg-desktop.jpg") no-repeat top center/cover;
+    overflow: visible;    
   }
 }
